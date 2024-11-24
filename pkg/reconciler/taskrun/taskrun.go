@@ -27,7 +27,7 @@ import (
 
 const (
 	// SecretPath contains the path to the secrets volume that is mounted in.
-	SecretPath = "/etc/signing-secrets"
+	SecretPath = "/sealed/signing-secrets"
 )
 
 type Reconciler struct {
